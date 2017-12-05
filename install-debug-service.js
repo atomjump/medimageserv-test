@@ -37,3 +37,5 @@ svc.install();
 
 
 var log = new EventLogger('medimage-debug');
+
+log.info('Basic test information.');
