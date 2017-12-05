@@ -1,3 +1,15 @@
+/* 
+
+The recommended way to install node-windows is with npm, using the global flag:
+
+npm install -g node-windows
+
+Then, in your project root, run:
+
+npm link node-windows
+
+*/
+
 var Service = require('node-windows').Service;
 var EventLogger = require('node-windows').EventLogger;
 
